@@ -7,6 +7,7 @@ CFLAGS := -Wall -Werror -Wextra -std=c++98 -g
 SRCS := main.cpp \
 		Weapon.cpp \
 		HumanA.cpp \
+		HumanB.cpp \
 
 INCS := -iquote ./
 
