@@ -8,7 +8,7 @@ int main(int argc, char **argv)
   exit(0);
  }
  std::ifstream ifs(argv[1]);
- std::ofstream ofs("newfile.txt");
+ std::ofstream ofs("filename.replace");
  if (!ifs.is_open() || !ofs.is_open())
  {
   std::cerr << "Failed to open file " << argv[1];
